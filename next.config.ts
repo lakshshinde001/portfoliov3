@@ -6,8 +6,11 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "assets.aceternity.com",
+        
       },
+      
     ],
+    domains: ['images.unsplash.com'],
   },
 };
 

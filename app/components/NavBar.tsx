@@ -20,9 +20,9 @@ export default function NavBar() {
 
 function Navbar({ className }: { className?: string }) {
   return (
-    <div className={`fixed top-10 inset-x-0 max-w-xl mx-auto z-50 border rounded-full  ${className}`}>
-      <Menu>
-        <MenuItem item="Home" href="/" />
+    <div className={`fixed top-10 inset-x-0 max-w-xl mx-auto z-50 border rounded-full text-white ${className}`}>
+      <Menu >
+        <MenuItem  item="Home" href="/" />
         <MenuItem item="Services" href="/services" />
         <MenuItem item="Products" href="/products" />
         <MenuItem item="Pricing" href="/pricing" />

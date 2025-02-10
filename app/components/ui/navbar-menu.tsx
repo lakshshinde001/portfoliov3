@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const MenuItem = ({ item, href }: { item: string; href: string }) => {
   return (
-    <Link href={href} className="text-black dark:text-white hover:opacity-80">
+    <Link href={href} className="text-white dark:text-white hover:opacity-80">
       {item}
     </Link>
   );
@@ -13,7 +13,7 @@ export const MenuItem = ({ item, href }: { item: string; href: string }) => {
 
 export const Menu = ({ children }: { children: React.ReactNode }) => {
   return (
-    <nav className="relative flex justify-center space-x-6 px-8 py-4 bg-white dark:bg-black shadow-md rounded-full">
+    <nav className="relative flex justify-center space-x-6 px-8 py-4 bg-black text-white dark:bg-black shadow-md rounded-full">
       {children}
     </nav>
   );
